@@ -11,12 +11,6 @@ variable "launch_name_prefix" {
   type        = string
 }
 
-variable "protocol" {
-  default     = "HTTP"
-  description = "Protocol used to communicate with target group."
-  type        = string
-}
-
 variable "provisioning_key" {
   description = "A key that can be used to connect and provision instances in AWS."
   type        = string
